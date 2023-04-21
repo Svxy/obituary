@@ -1,0 +1,513 @@
+/* -- resp mods -- */
+
+#bom-menu-btn {
+	display: none;
+}
+
+@media screen and (max-width: 960px){
+	#bom-site-wrapper #bom-wrapper {
+		width: 715px;
+		overflow: hidden;	/* added to remove scrollbar at bottom; if there's a better way to do this, please feel free! js. */
+	}
+	#bom-header {
+		width: 685px;
+	}
+	#candles-con{
+		width: 515px;
+	}
+	
+    #bom-content-wrapper.travel-page .infoList {
+        position: inherit;
+    }
+
+    #bom-content-wrapper.travel-page .loc-book-travel {
+            position: inherit;
+            top: auto;
+            left: auto;
+    }  	
+	
+	#candle-0 {top: 40px; left: 220px; z-index: 20;}
+	/* Center 1 Left Back */
+	#candle-1 {top: 10px; left: 185px; z-index: 10;}
+	/* Center 1 Right Back */
+	#candle-12 {top: 10px; left: 125px; }
+	/* Center 1 Left Forward */
+	#candle-3 {top: 38px; left: 165px; z-index: 20;}
+	/* Center 1 Right Forward */
+	#candle-2 {top: 10px; left: 260px; z-index: 10;}
+	/* Center 2 Left Back */
+	#candle-5 {top: 15px; left: 65px;}
+	/* Center 2 Right Back */
+	#candle-6 {top: 10px; left: 325px;}
+	/* Center 3 Left Forward */
+	#candle-7 {top: 35px; left: 388px; z-index: 10;}
+	/* Center 3 Right Forward */
+	#candle-8 {top: 38px; left: 335px; z-index: 10;}
+	/* Center 3 Left Back */
+	#candle-9 {top: 25px; left: 5px; }
+	/* Center 3 Right Back */
+	#candle-10 {top: 15px; left: 380px;}
+	/* Center 4 Left Forward */
+	#candle-11 {top: 38px; left: 110px; z-index: 20;}
+	/* Center 4 Right Forward */
+	#candle-4 {top: 38px; left: 282px; z-index: 10;}
+	/* Center 4 Left Back */
+	#candle-13 {top: 35px; left: 57px;}
+	/* Center 4 Right Back */
+	#candle-14 {top: 25px; left: 440px;}
+	
+	#bom-content-wrapper {
+		padding: 0 20px 125px 20px;
+		width: 475px;
+	}
+	
+	.bom-leave-condolence-con form #Message {
+		width: 300px;
+	}
+	
+	.files td.preview canvas {
+		width: 40px !important;
+		height: 40px !important;
+	}
+	.files .progress {
+		width: 89px !important;
+	}
+	
+	#bom-content-container {
+		background: none;
+	}
+	#bom-content-wrapper .info-container {
+		padding-left: 0;
+	}
+	.bom-services-wrapper .infoContent {
+		width: 335px;
+	}
+	div#florist-one-skin {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 750px){
+	#bom-menu-btn {
+		line-height: normal; 
+		letter-spacing: normal;
+		display: block; 
+		width: 100%; 
+		height: 33px; 
+		padding-top:17px; 
+		font-size: 16px; 
+		color: #fce6a9; 
+		text-shadow: 1px 1px 0 #000; 
+		text-decoration: none; 
+		text-align: center; 
+		background: url("../bom-nav-item-bg.jpg") top no-repeat;
+		cursor: pointer;
+		background-size: cover;
+		position: relative;
+	}
+	#bom-nav > ul:first-of-type {
+		display: none;
+		width: 100%;
+		margin-top: 0;
+	}
+	#bom-menu-btn:hover {
+		color:white;
+	}
+
+	.bom-expand-nav {
+	  background: url("/mobile/images/icon-bom-expand.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	  height: 21px;
+	  position: absolute;
+	  right: 20px;
+	  top: 18px;
+	  width: 21px;
+	  z-index: 10;
+	}
+	.resp-expanded .bom-expand-nav {
+	  background: url("/mobile/images/icon-bom-collapse.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}    
+    
+	#bom-site-wrapper #bom-wrapper {
+		width: 450px;
+	}
+	#bom-header {
+		width: 420px;
+		background-position: -127px -30px !important;
+		background-size: 129% auto !important;
+		z-index:11;
+	}
+	#candles-con {
+		height: 190px;
+		left: 0px;
+		position: absolute;
+		top: 11px;
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	#candles-con .candle-body {
+		width: 40px;
+		background-size: 100% auto;
+	}
+	#candles-con .lit-candle .candle-body {
+		width: 65px;
+	}
+	#candles-con .lit-candle .candle-flame-con {
+		margin: 15px 0 0 28px;
+	}
+	
+	#candle-0 {top: 60px; left: 185px; z-index: 20;}
+	/* Center 1 Left Back */
+	#candle-1 {top: 40px; left: 170px; z-index: 10;}
+	/* Center 1 Right Back */
+	#candle-3 {top: 60px; left: 158px; z-index: 10;}
+	/* Center 1 Left Forward */
+	#candle-8 {top: 60px; left: 115px; z-index: 10;}
+	/* Center 1 Right Forward */
+	#candle-2 {top: 40px; left: 225px; z-index: 10;}
+	/* Center 2 Left Back */
+	#candle-5 {top: 40px; left: 120px;}
+	/* Center 2 Right Back */
+	#candle-6 {top: 40px; left: 283px;}
+	/* Center 3 Left Forward */
+	#candle-7 {top: 60px; left: 335px; z-index: 10;}
+	/* Center 3 Right Forward */
+	#candle-4 {top: 60px; left: 245px; z-index: 10;}
+	/* Center 3 Left Back */
+	#candle-9 {top: 50px; left: 30px; }
+	/* Center 3 Right Back */
+	#candle-10 {top: 40px; left: 330px;}
+	/* Center 4 Left Forward */
+	#candle-11 {top: 60px; left: 70px; z-index: 10;}
+	/* Center 4 Right Forward */
+	#candle-12 {top: 60px; left: 290px; z-index: 10;}
+	/* Center 4 Left Back */
+	#candle-13 {top: 40px; left: 75px;}
+	/* Center 4 Right Back */
+	#candle-14 {top: 50px; left: 375px;}
+	
+	#candles-con-message {
+		top: 170px;
+		z-index: 20;
+	}
+	#bom-photo-con {
+		height: 195px;
+		left: 143px;
+		top: 212px;
+		width: 149px;
+		border: 3px solid #D1C96D;
+	}
+	#bom-photo-con img {
+		height: auto;
+		text-align: center;
+	}
+	
+	#bom-header {
+		height: 195px;
+	}
+	#bom-nav {
+		width: 100%;
+		height: auto;
+		border: 0;
+		padding-top: 376px;
+	}
+	#bom-content-container {
+		width: 100%;
+	}
+	#bom-nav > ul:first-of-type {
+		display: none;
+		width: 100%;
+
+	}
+	#bom-nav > ul:first-of-type li  a{
+		background-size: cover;
+	}
+	
+	#bom-in-memory-con {
+		top: 0;
+		margin: 410px auto 0;
+		position: relative;
+		padding: 0;
+	}
+	#bom-in-memory-con #bom-in-memory-name {
+		width: auto;
+	}
+	#bom-nav .menuHeader_sendflowers {
+		position: absolute;
+		top: 435px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 65px;
+		border: 0;
+		background-image: url("sendFlowers-750.png");
+	}
+	
+    #bom-nav #bom-nav-concierge{
+	    width: 100%;
+		top: 0;
+	    height: 50px !important;
+	    background-size: cover !important;        
+    }
+	
+	#bom-nav #bom-nav-hal{
+		width: 100%;
+		top: 0;
+		height: 75px !important;
+		background-size: cover !important;
+	}	
+    
+    #bom-nav-concierge #bom-nav-concierge-txt{
+        padding: 0;
+    }
+    
+    #bom-nav-concierge-heading{
+        text-align: center;
+        padding-top: 17px;
+        padding-left: 0px;
+        width: 100%;
+        font-size: 1.2em;
+        background: url('../../bom_images/conciergeServices-logo.png') no-repeat 5px 12px;
+    }
+
+    #bom-nav-concierge-body{
+        display: none;
+    }
+	
+	#bom-nav #bom-nav-familylogin, #bom-nav #bom-nav-ficta, #bom-nav #bom-nav-subscriptionCTA {
+		margin: 5px auto !important;
+		width: 95% !important;
+                height: 25px !important;
+                float: none;
+                background-image: none !important;
+                background: rgb(76,76,76);
+                background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(76,76,76,1)), color-stop(100%,rgba(19,19,19,1)));
+                background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(19,19,19,1) 100%);
+                background: -o-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(19,19,19,1) 100%);
+                background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(19,19,19,1) 100%);
+                background: linear-gradient(to bottom, rgba(76,76,76,1) 0%,rgba(19,19,19,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 );
+                border: 1px solid #5C5C5C;
+                box-shadow: 1px 1px 0 #000;
+                -moz-box-shadow: 1px 1px 0 #000;
+                -webkit-box-shadow: 1px 1px 0 #000;
+	}
+        #bom-nav #bom-nav-ficta #bom-nav-familylogin-txt, #bom-nav #bom-nav-familylogin #bom-nav-familylogin-txt {
+            text-align: center !important;
+        }
+        #bom-nav-familylogin p,
+        #bom-nav #bom-nav-subscriptionCTA p {
+            display: inline-block;
+        }
+	#bom-nav-fh, #bom-nav-error-contact, #socialLinks, #bom-backtofh-btn {
+		display: none !important;
+	}
+	
+	#bom-content-wrapper {
+		padding: 20px 15px 125px;
+		width: 420px;
+		margin-top: 0;
+	}
+	#bom-site-wrapper #bom-wrapper {
+		background: #fff !important;
+	}
+	.charity-search-con {
+		margin: 0;
+	}
+	
+	.bom-leave-condolence-con form #Message {
+		width: 225px;
+	}
+
+	.files .progress {
+		width: 60px !important;
+	}
+	
+	.files .bom-photo-descriptions {
+		width: 110px;
+	}
+	#bom-menu-btn {
+		display: block;
+	}
+	
+	#candles-con-message a {
+	  text-align: center;
+	  text-decoration: none;
+	  background: rgba(255,255,255,0.3);
+	  padding: 0px 15px;
+	}
+	
+	
+	#bom-nav #bom-nav-subscriptionCTA, #bom-nav-familylogin {
+		/*float: left;*/
+		/*margin: 20px 3px 20px !important;*/
+		/*display: block;*/
+		/*width: 47.69% !important;*/
+		/*height: 80px !important;*/
+		/*background-size: cover !important;*/
+	}
+	
+	#bom-nav-familylogin p {
+		padding: 0 !important;
+		margin-bottom: 0 !important;
+		font-size: 17px;
+	}
+	#bom-nav-subscriptionCTA-click {
+		display: inline-block;
+                
+	}
+	
+	#bom-nav #bom-nav-HAL-txt{
+        float: left;
+		float:none;
+		margin: 5px auto !important;
+		margin-left:20px;		
+    }  	
+	
+        #bom-nav #bom-nav-subscriptionCTA {
+            margin-bottom: 10px !important;
+            text-align: center;
+        }
+	#bom-nav #bom-nav-subscriptionCTA #bom-nav-subscriptionCTA-text {
+            padding: 0;
+            display: inline-block;
+        }
+	.bom-services-wrapper .infoContent {
+		width: 175px;
+	}
+	.store-container-outer {
+		position: relative;
+		z-index: 11;
+	}
+	.bom-button.bom-googlemap-button:nth-child(1) {
+		display: none;
+	}
+	#florist-one-skin .cards-list {
+		text-align: center;
+	}
+	#florist-one-skin .cards-list .card {
+		float: none !important;
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 479px){
+	
+.candle-shadow {
+    display: none;
+}	
+	
+#menu_memories_pm{ display: none; }
+	#bom-header {
+		width: 290px;
+		background-position: -92px -22px !important;
+		background-size: 129% auto !important;
+		z-index: 11;
+		height: 155px;
+	}
+	#bom-photo-con {
+		top: 175px;
+	}
+	#bom-nav .menuHeader_sendflowers {
+		/*left: 80px;*/
+	}
+	#bom-site-wrapper #bom-wrapper {
+		width: 320px;
+	}
+	
+	#candles-con{
+		top: -29px;
+		left: -3px;
+		width: 320px;
+	}
+    
+	#candles-con .candle-body {
+		width: 35px;
+	}
+	
+	#candles-con .lit-candle .candle-body {
+		width: 60px;
+	}
+	#candles-con .lit-candle .candle-flame-con {
+		margin: 20px 0 0 26px;
+	}
+	#candle-0 {top: 42px; left: 132px; z-index: 20;}
+	/* Center 1 Left Back */
+	#candle-1 {top: 20px; left: 127px; z-index: 10;}
+	/* Center 1 Right Back */
+	#candle-3 {top: 42px; left: 112px; z-index: 10;}
+	/* Center 1 Left Forward */
+	#candle-8 {top: 42px; left: 78px; z-index: 10;}
+	/* Center 1 Right Forward */
+	#candle-2 {top: 20px; left: 165px; z-index: 10;}
+	/* Center 2 Left Back */
+	#candle-5 {top: 25px; left: 85px;}
+	/* Center 2 Right Back */
+	#candle-6 {top: 20px; left: 205px;}
+	/* Center 3 Left Forward */
+	#candle-7 {top: 42px; left: 251px; z-index: 10;}
+	/* Center 3 Right Forward */
+	#candle-4 {top: 42px; left: 182px; z-index: 10;}
+	/* Center 3 Left Back */
+	#candle-9 {top: 35px; left: 10px; }
+	/* Center 3 Right Back */
+	#candle-10 {top: 23px; left: 245px;}
+	/* Center 4 Left Forward */
+	#candle-11 {top: 42px; left: 44px; z-index: 10;}
+	/* Center 4 Right Forward */
+	#candle-12 {top: 42px; left: 217px; z-index: 10;}
+	/* Center 4 Left Back */
+	#candle-13 {top: 25px; left: 48px;}
+	/* Center 4 Right Back */
+	#candle-14 {top: 35px; left: 285px;}
+
+	#bom-photo-con {
+		left: 82px;
+	}
+	#bom-photo-list {
+		width: 310px;
+	}
+	#bom-in-memory-con {
+		margin: 375px auto 0;
+	}
+	#bom-content-wrapper {
+		margin-top: 0;
+		padding: 20px 10px 125px;
+		/*width: 300px;*/
+		width: 90%;
+	}
+	#bom-content-wrapper form .bom-form-row label {
+		width: 120px;
+	}
+	.bom-leave-condolence-con form #Message {
+		width: 134px;
+	}
+	
+	#bom-charity-sel {
+		width: 90%;
+	}
+	
+	#bom-lac-form .bom-lac-row .bom-lac-input label {
+		width: 110px !important;
+
+	}
+	#bom-lac-form .bom-lac-row .bom-lac-input input[type="text"], #bom-lac-form .bom-lac-row .bom-lac-input select {
+		width: 160px;
+	}
+	div#florist-one-skin .header-bar {
+		height: 65px;
+	}
+	
+	#travel_img {
+		background-image: url("/book-of-memories/bom_images/FCS-header_sm.jpg");
+		background-repeat: no-repeat;
+		width: 100%; /*or your image's width*/
+		height: 215px; /*or your image's height*/
+		background-size:cover;
+		margin: 0;
+		padding: 0;
+	} 	
+	
+}
+

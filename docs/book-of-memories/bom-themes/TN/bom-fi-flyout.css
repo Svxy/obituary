@@ -1,0 +1,152 @@
+/*bom fi flyout*/
+#bom-nav #bom-nav-familylogin,
+#bom-nav #bom-nav-ficta {
+    cursor:pointer;
+    position: relative;
+    background: url('familyLogin-btn.jpg') no-repeat;
+    text-align: right;
+    /*margin-top:71px;*/
+    height: 64px;
+}
+
+#bom-nav #bom-nav-ficta #bom-nav-familylogin-txt,
+#bom-nav #bom-nav-familylogin #bom-nav-familylogin-txt {
+    font-family: Georgia;
+    text-align: right;
+    text-shadow: 1px 1px 1px #040505;
+    position:relative;
+    font-size: 1.3em;
+}
+#bom-nav #bom-nav-familylogin #bom-nav-familylogin-txt a,
+#bom-nav #bom-nav-ficta #bom-nav-familylogin-txt a {color:#cec09f !important; text-decoration:none; }
+
+#bom-nav #bom-nav-familylogin #bom-nav-familylogin-txt p,
+#bom-nav #bom-nav-ficta #bom-nav-familylogin-txt p { margin:0px; line-height: 18px; }
+
+#bom-nav #bom-nav-familylogin #bom-nav-familylogin-text,
+#bom-nav #bom-nav-ficta #bom-nav-familylogin-text { padding: 11px 17px 13px 0; }
+
+#bom-nav-familylogin #bom-nav-familylogin-txt-major,
+#bom-nav-ficta #bom-nav-familylogin-txt-major {
+    font-family: Georgia;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    background: url('familyInteractive-header.png') no-repeat;
+    height: 40px;
+    text-align: left;
+    padding: 4px 0 0 65px;
+}
+#bom-nav-familylogin #bom-nav-familylogin-click,
+#bom-nav-ficta #bom-nav-familylogin-click { font-style: italic; padding-right: 17px; }
+
+#bom-nav #bom-nav-familylogin:hover #bom-nav-fi-flyout { display: block; }
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout{
+    left:200px;
+    top:-318px;
+    width:460px;
+    height: 700px;
+    box-shadow:0px 0px 15px 1px #040505;
+    z-index: 1000;
+    font-family: "Trebuchet MS";
+    font-size: 0.9em;
+    color:#7c7765;
+    display: none;
+    line-height: initial;
+    text-align: initial;
+    position: absolute;
+}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout p {margin:13px 0px;}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout .fi-flyout-error {color:red; font-size: 0.9em;}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1,
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step2,
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step3,
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step3-failed { height: 100%; width:100%; position:absolute; }
+
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1{ background:url('familyinteractive-flyout-step1.png'); }
+
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step2,
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step3,
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step3-failed { background:url('familyinteractive-flyout-step2.png'); display: none; }
+
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1 #fi-flyout-step1-content,
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step2 #fi-flyout-step2-content,
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step3 #fi-flyout-step3-content,
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step3-failed #fi-flyout-step3-content{ width:360px; margin: 0 auto; }
+
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1 #fi-flyout-step1-content { top:-10px; position:relative; }
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step2 #fi-flyout-step2-content,
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step3 #fi-flyout-step3-content,
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step3-failed #fi-flyout-step3-content{ top:15px; position:relative; }
+
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step2 #fi-flyout-step2-content ul {top:0px;}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step2 #fi-flyout-step2-fields p {margin: 0;}
+
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1 #fi-flyout-step1-header {
+    background:url('familyinteractive-flyout-setp1-header.jpg');
+    height: 262px;
+    position:relative;
+}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1 #fi-flyout-step1-footer{
+    position: relative;
+    bottom: 23px;
+    height:166px;
+}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1 #fi-flyout-step1-footer-login{
+    width:200px;
+    float:left;
+    margin:22px 0 0 8px;
+}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1 #fi-flyout-step1-footer-login p {
+    margin: initial;
+}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1 #fi-flyout-step1-footer-login form input[type='text']{
+    margin:3px 0;
+}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout /*#fi-flyout-step1 #fi-flyout-step1-footer-login*/ input[type="text"]{
+    height: 23px;
+    width: 170px;
+    border-radius: 0px;
+    border:1px solid #454731;
+    font-size: 1em;
+    padding-left:10px;
+    box-shadow: 1px 1px 1px #171818;
+}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step2 input[type="text"] { width: 345px; margin: 3px 0; }
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step2 #fi-flyout-step2-fields { margin-bottom: 20px; }
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step2 ul  { margin-bottom: 20px; }
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step2 ul li { list-style: initial; margin-left: 22px; }
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout input[type="submit"],
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout input[type="button"]{
+    background: url('familyinteractive-flyout-setp1-submit.jpg');
+    width:94px;
+    height:34px;
+    color:#cec09f;
+    border: none;
+    font-size: 1.1em;
+    cursor:pointer;
+}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1 #fi-flyout-step1-footer-request{
+    font-family: "Georgia";
+    background:url('familyinteractive-flyout-setp1-footer-request.jpg');
+    height: 166px;
+    width: 237px;
+    float: left;
+    position:relative;
+}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1 #fi-flyout-step1-footer-request p { margin:0; }
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout #fi-flyout-step1 #fi-flyout-step1-footer-request-text{
+    width:110px;
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+    text-align: right;
+    font-size: 1.5em;
+    color:#404040;
+    text-shadow: 1px 1px 1px #fff;
+    cursor: pointer;
+}
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout .fi-flyout-header,
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout .fi-flyout-note { color:#404040; }
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout .fi-flyout-note { font-style: italic; }
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout .fi-flyout-header{ font-size: 1.5em; margin-bottom:0px; }
+#bom-nav #bom-nav-familylogin #bom-nav-fi-flyout .fi-flyout-large { font-size: 1.2em; }

@@ -1,0 +1,922 @@
+#bom-nav #bom-nav-concierge #bom-nav-concierge-txt p,
+#bom-nav #bom-nav-concierge-mobile #bom-nav-concierge-txt-mobile p,
+#bom-nav #bom-nav-familylogin #bom-nav-familylogin-txt p,
+#bom-nav #bom-nav-ficta #bom-nav-familylogin-txt p,
+#bom-nav #bom-nav-subscriptionCTA p {
+    line-height: initial;
+}
+
+#dm #video-container video {
+    max-width: inherit !important;
+    margin: inherit !important;
+}
+
+.recaptcha_input_area [type=color],
+.recaptcha_input_area [type=date],
+.recaptcha_input_area [type=datetime-local],
+.recaptcha_input_area [type=datetime],
+.recaptcha_input_area [type=email],
+.recaptcha_input_area [type=month],
+.recaptcha_input_area [type=number],
+.recaptcha_input_area [type=password],
+.recaptcha_input_area [type=search],
+.recaptcha_input_area [type=tel],
+.recaptcha_input_area [type=text],
+.recaptcha_input_area [type=time],
+.recaptcha_input_area [type=url],
+.recaptcha_input_area [type=week],
+.recaptcha_input_area textarea {
+    display: initial;
+    height: auto;
+}
+
+.video-controls button {
+    padding: 0.125rem 0.5rem;
+    border-radius: 2px;
+    border: 1px solid #a5a5a5;
+    background: linear-gradient(to bottom, #f6f6f6 0%, #dedede 100%);
+}
+
+/* premium tree tile */
+
+.premiumTree .premium-content {
+  /*width: 100%;*/
+  max-width: 100%;
+  padding: 1.6rem 1.2rem !important;
+  color: #fff !important;
+  text-align: center;
+  background: url("img/premium-tree-image.png") center no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  flex: initial;
+}
+
+.premiumTree .premium-content .selected-icon {
+  font-size: 1.8rem;
+}
+
+.premiumTree .premium-content p {
+  margin-bottom: .6rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.premiumTree-left {
+    width: calc(60% - 12px);
+    padding-right: 12px !important;
+    float: left;
+}
+
+.premiumTree-right {
+    width: 40%;
+    float: left;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .premiumTree-left {
+        width: 100%;
+        padding-right: 0 !important;
+        float: left;
+    }
+    
+    .premiumTree-right {
+        width: 100%;
+        padding: 10px 0px !important;
+        float: left;
+    }
+}
+  
+/* end premium tree */
+
+/* *********************************************************** */
+
+/*                   PLANT A TREE                              */
+
+/* *********************************************************** */
+
+.hal-content-wrapper #sw-hal-tree-entry-con .bom-links .facebook-share {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#668f02+1,4d6c02+100 */
+    background: rgb(102, 143, 2);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(102, 143, 2, 1) 1%, rgba(77, 108, 2, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(102, 143, 2, 1) 1%, rgba(77, 108, 2, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(102, 143, 2, 1) 1%, rgba(77, 108, 2, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#668f02', endColorstr='#4d6c02', GradientType=0);
+    /* IE6-9 */
+    clear: both;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    height: 27px;
+    box-shadow: 1px 3px 6px 0px #bbb;
+    width: 157px;
+}
+
+.hal-content-wrapper #sw-hal-tree-entry-con .bom-links .facebook-share a:before {
+    content: '';
+    background: url('../img/icon-facebook-rounded.png');
+    background-size: cover;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    margin-left: -31px;
+    margin-top: 0px;
+}
+
+.hal-content-wrapper #sw-hal-tree-entry-con .bom-links .facebook-share a {
+    color: white !important;
+    top: 2px;
+    text-decoration: none !important;
+    position: relative;
+    font-size: 12px;
+    left: 10px;
+}
+
+.hal-page .system-widget-wrapper {
+    background: transparent;
+}
+
+.hal-page .system-widget-header-wrapper {
+    display: none;
+}
+
+.hal-page .hal-content-wrapper {
+    background: #fff;
+}
+
+.hal-page .what-is-icon {
+    width: 155px;
+    vertical-align: bottom;
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 10px
+}
+
+.hal-page a:link,
+.hal-page a:visited {
+    color: inherit;
+}
+
+#bom-content-container #bom-content-wrapper.hal-page .what-is-icon a {
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 17px;
+}
+
+.hal-page .what-is-icon img {
+    float: left;
+    padding-right: 5px;
+}
+
+@media (min-width: 480px) {
+    .hal-page .what-is-icon {
+        position: relative;
+        top: -1em;
+    }
+    .hal-page .what-is-icon img {
+        position: relative;
+        top: -5px;
+    }
+}
+
+#bom-nav-hal-txt {
+    /*background: url('img/treehands.png') no-repeat;*/
+    background: url('img/Plant-a-tree-BOM.jpg') no-repeat;
+    height: 67px;
+    /*height: 75px;*/
+    color: #fff;
+    font-size: 12px;
+    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+#bom-nav-hal-body {
+    padding-top: 10px;
+    float: right;
+    width: 100px;
+}
+
+#bom-nav-hal-btn {
+    color: #c7e6ac;
+    font-size: 10px;
+}
+
+#bom-nav-hal-body-txt {
+    line-height: 13px;
+}
+
+#bom-candle-list .bom-candle .bom-candle-date.tree-date {
+    text-align: left;
+}
+
+.bom-candle-date.tree-date a {
+    float: right;
+}
+
+/* *********************************************************** */
+
+/*                   CONTRIBUTE FUND                           */
+
+/* *********************************************************** */
+
+#bom-nav-contributefund-txt {
+    background: url('img/Contribute-Fund.jpg') no-repeat;
+    height: 67px;
+    color: #fff;
+    font-size: 12px;
+    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+#bom-nav-contributefund-body {
+    padding-top: 10px;
+    float: right;
+    width: 100px;
+}
+
+#bom-nav-contributefund-btn {
+    color: #c7e6ac;
+    font-size: 10px;
+}
+
+#bom-nav-contributefund-body-txt {
+    line-height: 13px;
+}
+
+/* *********************************************************** */
+
+/*                  START- CTAs                                */
+
+/* *********************************************************** */
+
+.ctaflier-keyline {
+    margin-top: 20px;
+    position: relative;
+}
+
+.ctaflier-btn {
+    position: absolute;
+    width: 215px;
+    height: 25px;
+    top: 65px;
+    left: 20px;
+    background-color: black;
+    background-image: linear-gradient(to top, #404040 0%, #595959 100%);
+    border-radius: 0 0 5px 5px;
+}
+
+.ctaflier-click-to {
+    position: relative;
+    top: 4px;
+    margin-top: 5px;
+    width: 135px;
+    height: 11px;
+    color: white;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.ctaflier-candle-family {
+    background: url('img/ctaflier-candle-family.png');
+    width: 215px;
+    height: 65px;
+}
+
+.ctaflier-flower-family {
+    background: url('img/ctaflier-flower-family.png');
+    width: 215px;
+    height: 65px;
+}
+
+.ctaflier-tree-family {
+    background: url('img/ctaflier-tree-family.png');
+    width: 215px;
+    height: 65px;
+}
+
+.ctaflier-btn-resp {
+    position: absolute;
+    width: 128px;
+    height: 55px;
+    background-color: black;
+    background-image: linear-gradient(to top, #404040 0%, #595959 100%);
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5), inset 0 1px 0 #000;
+    text-align: center;
+}
+
+.ctaflier-click-to-resp {
+    position: relative;
+    top: 4px;
+    margin-top: 5px;
+    width: 135px;
+    height: 11px;
+    color: white;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 12px;
+}
+
+.ctaflier-btn-resp.candle {
+    margin-left: 30px;
+}
+
+.ctaflier-btn-resp.flower {
+    margin-left: 191px;
+}
+
+.ctaflier-btn-resp.tree {
+    margin-left: 355px;
+}
+
+.bom-content-page {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 960px) {
+    #ctaflier-all {
+        display: block;
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    #ctaflier-all {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .ctaflier-btn-resp.candle {
+        margin-left: 5px;
+    }
+    .ctaflier-btn-resp.flower {
+        margin-left: 150px;
+    }
+    .ctaflier-btn-resp.tree {
+        margin-left: 297px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .ctaflier-btn-resp {
+        width: 96px;
+    }
+    .ctaflier-btn-resp.candle {
+        margin-left: 1px;
+    }
+    .ctaflier-btn-resp.flower {
+        margin-left: 104px;
+    }
+    .ctaflier-btn-resp.tree {
+        margin-left: 207px;
+    }
+}
+
+.ctaflier-title {
+    margin: auto;
+    padding: 5%;
+    width: 90%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, .5), 0 -10px 10px -10px rgba(0, 0, 0, .25);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
+}
+
+.ctaflier-icon-flower {
+    background: url('img/ctaflier-icon-flower.png');
+    width: 38px;
+    height: 51px;
+    float: left;
+    margin-top: 10px;
+}
+
+.ctaflier-icon-text {
+    font-size: 12px;
+    text-align: left;
+    font-family: Arial;
+    line-height: 14px;
+    color: #595959;
+    margin-left: 46px;
+}
+
+.bom-condolence-flag {
+    text-align: right;
+    font-weight: bold;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.bom-condolence-flag div {
+    display: inline-block;
+}
+
+.bom-condolence-flagicon {
+    background: url('img/condolence-flag.png');
+    height: 9px;
+    width: 16px;
+    cursor: pointer;
+}
+
+/* *********************************************************** */
+
+/*                  END- CTAs                                */
+
+/* *********************************************************** */
+
+/* *********************************************************** */
+
+/*                 START - FACEBOOK                            */
+
+/* *********************************************************** */
+
+#bom-flower-view .facebook-share {
+    position: absolute;
+    right: 0px;
+    height: 18px;
+}
+
+#bom-flower-view .facebook-share a {
+    top: 4px;
+}
+
+#bom-flower-view .facebook-share a:before {
+    margin-top: -3px !important;
+}
+
+/* *********************************************************** */
+
+/*                 END - FACEBOOK                            */
+
+/* *********************************************************** */
+
+/* *********************************************************** */
+
+/*                 START - RSVP                                */
+
+/* *********************************************************** */
+
+@import url("/book-of-memories/bom-themes/FS/font-awesome.min.css");
+/*button.rsvp-btn,*/
+
+#rsvp-form .rsvp-row input[type="submit"],
+button#rsvp-form-close {
+    display: block;
+    margin: 10px auto;
+    padding: .25em .5em;
+    min-width: 100px;
+    color: #fff;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px #000;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background: #7f7f7f;
+    background: linear-gradient(to bottom, #7f7f7f 0%, #333333 100%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
+}
+
+/*button.rsvp-btn:hover {
+    text-shadow: 0 0 3px #000;
+    background: linear-gradient(to bottom, #7f7f7f 0%,#000 100%);
+}*/
+
+button.rsvp-btn {
+    cursor: pointer;
+}
+
+button.rsvp-btn:before {
+    margin-left: 5px;
+    margin-right: 15px;
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 21px;
+    background: url('../bom_images/rsvp-icon.png') 50% no-repeat;
+}
+
+.rsvp-modal-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000000;
+    display: none;
+    overflow-y: auto;
+}
+
+.rsvp-modal {
+    padding: 1em 0;
+    width: 80%;
+    max-width: 650px;
+    position: relative;
+    min-height: 450px;
+    top: 70px;
+    margin: 0 auto 50px;
+    display: none;
+    background: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#rsvp-modal-close {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    background: #7f7f7f;
+    background: linear-gradient(to bottom, #7f7f7f 0%, #333333 100%);
+    border-radius: 100%;
+    right: 15px;
+    top: 15px;
+    background: -webkit-box-shadow: 0.5px 0.5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0.5px 0.5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0.5px 0.5px 5px 0px rgba(0, 0, 0, 0.75);
+    /*font-family: "Open Sans", "Trebuchet MS", sans-serif;*/
+    line-height: 0.9;
+}
+
+@media screen and (max-width: 480px) {
+    #rsvp-modal-close {
+        top: 0;
+        right: 0;
+    }
+}
+
+.rsvp-modal-spinner {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#rsvp-modal h2 {
+    margin-bottom: 0;
+    border: 0;
+}
+
+div#rsvp-modal-content h2 {
+    margin: 0 0 0.5em 0;
+    font-size: 2.25em;
+    color: #000;
+    border: 0;
+}
+
+.rsvp-eventdetails {
+    margin-bottom: 1em !important;
+    padding: 10px 2.5%;
+    width: 80%;
+    /*color: #fff;*/
+    font-weight: bold;
+    background: #eee;
+    border-radius: 5px;
+    border-color: #999;
+}
+
+@media screen and (max-width: 480px) {
+    .rsvp-eventdetails {
+        width: 90%;
+    }
+}
+
+.rsvp-row div {
+    line-height: 1;
+}
+
+@media screen and (max-width: 665px) {
+    .rsvp-row div {
+        width: 100% !important;
+        text-align: center !important;
+    }
+}
+
+.rsvp-eventdetails label {
+    line-height: normal;
+}
+
+.rsvp-form-msg {
+    padding: 5px;
+    display: inline-block;
+}
+
+.rsvp-form-msg.success {
+    color: #fff;
+    background: #69995c;
+}
+
+.rsvp-form-msg.error {
+    background: red;
+}
+
+#rsvp-form {
+    display: inline-block;
+    width: 80%;
+}
+
+@media screen and (max-width: 480px) {
+    #rsvp-form {
+        padding: 0 1em;
+        width: 100%;
+    }
+}
+
+#rsvp-form input,
+#rsvp-form textarea {
+    border: 1px solid #AAA;
+    width: initial;
+    min-width: 190px;
+    padding: 5px;
+}
+
+#rsvp-form input,
+#rsvp-form input[type=text],
+#rsvp-form textarea {
+    /*display: inline-block;*/
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    #rsvp-form textarea {
+        height: 100px;
+    }
+}
+
+#rsvp-form .rsvp-row {
+    margin: 20px 0;
+    text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+    #rsvp-form .rsvp-row {
+        text-align: center;
+    }
+}
+
+#rsvp-form .rsvp-row.panel {
+    border-radius: 5px;
+    border: 1px solid #999;
+    background: #eee;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.rsvp-row .rsvp-eventdetails .rsvp-label {
+    text-align: left !important;
+}
+
+.rsvp-label,
+.rsvp-row .rsvp-eventdetails .rsvp-label {
+    font-weight: bold;
+}
+
+#rsvp-form .rsvp-row.panel label {
+    width: auto;
+    display: block;
+    text-align: center;
+}
+
+#rsvp-form .rsvp-row.panel input {
+    /*width: calc(100% - 10px);*/
+    width: 80%;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    display: block;
+    text-align: center;
+}
+
+#rsvp-form .rsvp-row label {
+    /*text-align: right;*/
+    vertical-align: top;
+    /*width: 200px;*/
+    /*display: inline-block;*/
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 480px) {
+    #rsvp-form .rsvp-row label {
+        margin: 0;
+        /*text-align: left;*/
+    }
+}
+
+#rsvp-form .rsvp-row input[type="submit"],
+#rsvp-form .rsvp-row input[type="checkbox"] {
+    min-width: auto;
+}
+
+#rsvp-form .rsvp-row input[type="checkbox"] {
+    width: inherit;
+}
+
+@media screen and (max-width: 480px) {
+    input#rsvp-attending {
+        margin: 0 1em;
+    }
+}
+
+#rsvp-form .rsvp-row input[type="submit"] {
+    float: right;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    width: inherit;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    #rsvp-form .rsvp-row input[type="submit"] {
+        float: none;
+        margin: auto;
+    }
+}
+
+.rsvp-form-spinner {
+    margin: 15px 0;
+}
+
+.rsvp-form-msg {
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+/* *********************************************************** */
+
+/*                 END - RSVP                                  */
+
+/* *********************************************************** */
+
+.bom-modal-window {
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.bom-modal-window iframe {
+    max-width: 100%;
+    max-height: 100%;
+    background: white;
+}
+
+@media screen and (max-width: 480px) {
+    .bom-modal-window {
+        top: 70px !important;
+        height: calc(100% - 80px) !important;
+    }
+}
+
+.bom-modal-window div.bom-modal-close {
+    top: 3px;
+    right: -4px;
+    background-image: none;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: auto;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.bom-modal-window div.bom-modal-close:after {
+    content: "Close \2715";
+}
+
+#bom-nav-upgrade a {
+    background: url('../bom_images/upgrade-memorial-bg.jpg') 50% 0% no-repeat;
+    height: 55px;
+    display: block;
+}
+
+#sticky-bomsong {
+    position: fixed;
+    top: 95vh;
+    right: 0;
+    z-index: 2000;
+}
+
+.bomsong {
+    width: 70px;
+    height: 41px;
+    margin-right: 40px;
+    background-repeat: no-repeat;
+    float: right;
+    display: block;
+}
+
+#bom-play {
+    background-image: url("img/play-button.svg");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#bom-pause {
+    background-image: url("img/pause-button.svg");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#bom-play.bom-play-st {
+    background-image: url("img/play-button-st.svg");
+}
+
+#bom-pause.bom-pause-st {
+    background-image: url("img/pause-button-st.svg");
+}
+
+@media screen and (max-width: 750px) {
+    #sticky-bomsong {
+        top: initial;
+        bottom: 20px;
+    }
+    .bomsong {
+        width: 120px;
+        height: 70px;
+    }
+}
+
+/* ST Styling */
+
+#bom-wrapper.ST .tribute-detail-date,
+#bom-wrapper.v6 .tribute-detail-date {
+    width: auto;
+    font-size: 13px;
+    float: left;
+    display: block;
+}
+
+#bom-wrapper.ST .tribute-detail-type,
+#bom-wrapper.v6 .tribute-detail-type {
+    width: auto;
+    margin-left: 6px;
+    font-size: 13px;
+    float: left;
+    display: block;
+}
+
+#bom-wrapper.ST .premiumTree-left,
+#bom-wrapper.v6 .premiumTree-left {
+    width: calc(60% - 14px);
+}
+
+@media screen and (max-width: 750px) {
+
+    #bom-wrapper.ST .premiumTree-left,
+    #bom-wrapper.v6 .premiumTree-left{
+        width: 100%;
+    }
+
+    #bom-wrapper.ST .tribute-type-tree .tribute-info,
+    #bom-wrapper.v6 .tribute-type-tree .tribute-info{
+        width: calc(100% - 140px);
+        margin-left: 0px !important;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    #bom-wrapper.ST .tribute-type-tree .tribute-info,
+    #bom-wrapper.v6 .tribute-type-tree .tribute-info{
+        width: 100%;
+        margin-left: 0px !important;
+        float: left;
+    }
+    
+    #bom-wrapper.ST .view-tributes-container .tribute-con .premiumTree .tribute-from > span,
+    #bom-wrapper.v6 .view-tributes-container .tribute-con .premiumTree .tribute-from > span{
+        font-size: 15px;
+    }
+    
+    #bom-wrapper.ST .tribute-type-tree.isPremium .tribute-image,
+    #bom-wrapper.v6 .tribute-type-tree.isPremium .tribute-image{
+        display: none;
+    }
+}
